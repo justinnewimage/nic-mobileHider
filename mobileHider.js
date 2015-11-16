@@ -1,6 +1,6 @@
 // New Image College Custom Handlers :: depending on screen size, element visibility for logged in users and other such intricacies that need attention that no one cares about but me
 // If any changes are made without supervision from the author, be sure to inquire or be thorough so as not to create code conflicts
-// Written by: Justin Gaskin - 1/7/2015
+// Written by: Justin Gaskin
 
 jQuery(window).ready(function() {
 	// social footer bar background change on mouse over
