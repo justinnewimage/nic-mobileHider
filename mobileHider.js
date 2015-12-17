@@ -31,10 +31,11 @@ jQuery(document).ready(function() {
 	var viewportHeight = jQuery(window).height();
 	var thirtyVP = (80 * viewportHeight) / 100;
     // thirtyVP = parseInt(thirtyVP) + 'px'; 
-	if (screen.width() < 1024) {
+	if (screen.width() < 900) {
 		console.log('screen is mobile');
 		jQuery('.mobileShow').show();
 		jQuery('.mobileHID').hide();
+		jQuery('.mobileHider').hide();
                 jQuery('.titlePanel').css('background-color','rgba(145,169,191,0.5)','!important');
 		jQuery('.mobileTitle').css('line-height','3.5rem');
 		jQuery('.mobileCopy').css('min-width','145%').css('left','-35%');
